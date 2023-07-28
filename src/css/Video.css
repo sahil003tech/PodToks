@@ -1,0 +1,28 @@
+.video-section{
+    margin-top: 5em;
+    margin-bottom: 0em;
+}
+.video-section h2{
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    font-size: 42px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.back-seeyour{
+    background-size: 100%;
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background-image: url("https://zukaz.com/assets/img/Video-Screen-Image_01A.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.back-video{
+    height: 510px;
+    width: 70%;
+    opacity: 0;
+}

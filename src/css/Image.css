@@ -1,0 +1,47 @@
+.image-detail {
+
+    right: -20em;
+    display: block;
+    position: absolute;
+}
+
+.header-banner {
+    width: 100%;
+    /* margin-top: 6em; */
+    display: flex;
+    position: relative;
+    z-index: 100;
+    padding-top: 10em;
+    margin-left: 100px;
+}
+
+.banner-left {
+    width: 50%;
+    margin-top: -3em;
+}
+
+h1 {
+    margin-bottom: 5px;
+    padding-bottom: 14px;
+    font-weight: 600;
+    font-size: 6vw;
+}
+
+span {
+    font-size: 2vw;
+}
+
+.banner-right {
+    width: 50%;
+}
+
+.phone-hand {
+    width: 45%;
+    position: relative;
+    margin-top: -1em;
+}
+@media (max-width:768px) {
+    .header-banner{
+        margin-left: 0;
+    }
+}

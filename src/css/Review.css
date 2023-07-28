@@ -1,0 +1,43 @@
+.review-container{
+    background-color: white;
+    padding: 6.7em 0;
+}
+.review-slider{
+    margin: 0 auto;
+    width: 54%;
+}
+.review-h2{
+    font-size: 42px;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+.review-div{
+    padding-top: 2em;
+    text-align: center;
+}
+.review-image{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    padding: 0.5em;
+}
+.review-p{
+    width: 64%;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
+}
+.review-star{
+    margin-top: 2em;
+}
+.review-inside-h4{
+    font-size: 30px;
+    margin-top: 0.5em;
+    color: #008DA6;
+    padding-bottom: 2px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
