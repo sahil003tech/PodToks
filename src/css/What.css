@@ -32,3 +32,25 @@
     font-family: 'Poppins',sans-serif;
     font-weight: 300;
 }
+@media (max-width:768px) {
+    .inside-div{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .inside-what{
+        padding-left: 30px;
+    }
+    .what-left h2{
+        font-size: 30px;
+    }
+    .what-left p{
+        font-size: 14px;
+    }
+    .what-left{
+        width: 300px;
+    }
+    .what-right{
+        width: 300px;
+    }
+}

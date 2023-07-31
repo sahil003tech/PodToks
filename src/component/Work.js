@@ -3,7 +3,7 @@ import "../css/Work.css";
 
 const Work = () => {
   return (
-    <section style={{ background: "white" }}>
+    <div style={{ background: "white", width: "100%" }}>
       <div className="main-work">
         <div className="work">
           <h2>How It Works</h2>
@@ -15,6 +15,7 @@ const Work = () => {
                   alt=""
                   width={200}
                   height={200}
+                  className="work-image"
                 />
               </div>
               <div className="div-work">
@@ -42,6 +43,7 @@ const Work = () => {
                   alt=""
                   width={200}
                   height={200}
+                  className="work-image"
                 />
               </div>
               <div className="div-work">
@@ -69,6 +71,7 @@ const Work = () => {
                   alt=""
                   width={200}
                   height={200}
+                  className="work-image"
                 />
               </div>
               <div className="div-work">
@@ -96,6 +99,7 @@ const Work = () => {
                   alt=""
                   width={200}
                   height={200}
+                  className="work-image"
                 />
               </div>
               <div className="div-work">
@@ -118,7 +122,7 @@ const Work = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

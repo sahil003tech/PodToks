@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../css/Feature.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -23,13 +23,7 @@ const Animated = ({ logos }) => {
     >
       {logos.map((logo, index) => (
         <SwiperSlide key={index}>
-          <img
-            src={logo}
-            alt={`Logo ${index + 1}`}
-            width={200}
-            height={50}
-            className="partners-logo"
-          />
+          <img src={logo} alt={`Logo ${index + 1}`} className="partners-logo" />
         </SwiperSlide>
       ))}
     </Swiper>

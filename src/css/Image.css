@@ -1,6 +1,6 @@
 .image-detail {
 
-    right: -20em;
+    right: -2em;
     display: block;
     position: absolute;
 }
@@ -40,8 +40,26 @@ span {
     position: relative;
     margin-top: -1em;
 }
+.image-detail-inside{
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      top: -200px;
+      left: 0;   
+}
 @media (max-width:768px) {
     .header-banner{
         margin-left: 0;
+    }
+    .banner-left{
+        margin-left: 3rem;
+    }
+    .image-detail-inside{
+        top: -200px;
+    }
+    .image-detail{
+        right: 0;
+        width: 48rem;
+        max-width: 48rem;
     }
 }

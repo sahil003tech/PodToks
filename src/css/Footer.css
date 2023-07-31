@@ -133,3 +133,33 @@
     background-color: transparent;
     border: 1px solid white;
 }
+@media (max-width:500px) {
+    .footer-info{
+        flex-direction: column;
+    }
+    .footer-second{
+        flex-direction: column;
+    }
+    .footer-info-form{
+        width: 100%;
+    }
+    .footer-second-form{
+        margin-top: 0;
+        width: 100%;
+    }
+    .form-part-one{
+        margin-right: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .lb-checked{
+        width: 100%;
+    }
+    .input-email{
+        margin-right: 2rem;
+    }
+    .form-button{
+        margin-left: -3rem;
+        margin-right: 3rem;
+    }
+}

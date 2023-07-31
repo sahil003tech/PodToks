@@ -50,3 +50,10 @@
         margin: auto;
     }
 }
+@media (max-width:500px) {
+    .work-image{
+        width: 100px;
+        height: 100px;
+    }
+    
+}

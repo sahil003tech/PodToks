@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Image.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import Image from "../assets/zukaz_hero_orange (2).png";
 
 const Imagesection = () => {
   const [typeEffect] = useTypewriter({
@@ -13,16 +14,11 @@ const Imagesection = () => {
     <div>
       <div className="image-detail">
         <img
-          src="https://zukaz.com/assets/img/zukaz_hero_orange.png"
+          src={Image}
           alt="image"
-          width={100}
-          height={697}
-          style={{
-            position: "relative",
-            width: "100%",
-            top: "-200px",
-            left: "0em",
-          }}
+          width="100%"
+          height="100%"
+          className="image-detail-inside"
         />
       </div>
 

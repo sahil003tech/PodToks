@@ -23,8 +23,9 @@ const What = () => {
             <img
               src="https://zukaz.com/assets/img/phone2.png"
               alt=""
-              width={393}
+              width="100%"
               height={436}
+              className="what-image"
             />
           </div>
         </div>

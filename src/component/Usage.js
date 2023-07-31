@@ -170,7 +170,7 @@ const Usage = () => {
                 <img
                   src="https://zukaz.com/assets/img/love-image4.jpg"
                   alt=""
-                  width={680}
+                  width="100%"
                   height={483}
                   style={{ borderRadius: "2em" }}
                 />
@@ -179,7 +179,7 @@ const Usage = () => {
                 <img
                   src="https://zukaz.com/assets/img/love-image5.jpg"
                   alt=""
-                  width={680}
+                  width="100%"
                   height={483}
                   style={{ borderRadius: "2em" }}
                 />
@@ -188,7 +188,7 @@ const Usage = () => {
                 <img
                   src="https://zukaz.com/assets/img/love-image6.jpg"
                   alt=""
-                  width={680}
+                  width="100%"
                   height={483}
                   style={{ borderRadius: "2em" }}
                 />
@@ -197,7 +197,7 @@ const Usage = () => {
                 <img
                   src="https://zukaz.com/assets/img/love-image1.jpg"
                   alt=""
-                  width={680}
+                  width="100%"
                   height={483}
                   style={{ borderRadius: "2em" }}
                 />
